@@ -1,0 +1,24 @@
+1) Descreva, com suas próprias palavras, as principais etapas de cada um dos processos vistos em aula:
+	
+	Cascata	
+		- Definição de requisitos: São levantadas funcionalidades que o sistema deverá ter, em resumo o que o sistema irá realizar e por quem.
+		- Projeto do sistema e software: São definidas questões de arquitetura, linguagem de programação que será utilizada, frameworks, etc., esta escolha é feita a partir das tecnologias que atendam melhor o requisitos definidos no passo anterior.
+		- Implementação e teste unitário: São colocados em prática as tecnologias definidas no processo anterior, sendo o momento de desenvolvimento e produção do processo.
+		- Integrações e teste do sistema: São implementadas possíveis integrações com outros sistemas e testando se as funcionalidades estão funcionando corretamente.
+		- Operação e manutenção: Passo onde o sistema é levado para ambiente produtivo e é utilizado pelos usuários, caso hajam correções retorna-se para passos anteriores do processo.
+
+	Incremental
+		- Descrição do esboço: São definidos moldes e planejado o que será implementado.
+		- Desenvolvimento/Especificação/Validação (Versões): São definidos requisitos juntamente ao desenvolvimento, sendo um processo contínuo, onde um requisito é definido, desenvolvido e validado. Nessas etapas as versões são liberadas rápidamente assim que funcionais, sendo evoluídas até sua versão final.
+
+	RUP
+		- Concepção: Definir as interações que acontecerão no sistema e requisitos para atende-los.
+		- Elaboração: Definição dos casos de usos e arquiteturas que serão utilizadas.
+		- Construção: Desenvolvimento do projeto de fato.
+		- Transição: Mudança entre versões do sistema, ou implementações novas.
+
+2/3) Quais as diferenças entre os processos vistos em aula? Quais as vantagens e desvantagens? Na sua opinião, em quais situações e tipos de softwares cada um dos processos são mais adequados? Dê um exemplo de aplicação para cada processo visto em aula.
+	
+	Os quesitos que diferenciam as metodologias são os casos de uso, para cada problema há uma solução e um método diferente da solução ser desenvolvida. Na hora da decisão do modelo de desenvolvimento vale considerar segurança, agilidade, confiabilidade e flexibilidade.
+
+	No caso de um sistema para bancos é crucial que as funcionalidades estejam em completo funcionamento fim a fim, sem defeitos, com integrações impecáveis, pois é um ambiente que trata diretamente com dinheiro, sendo assim o modelo em cascata ou até mesmo o modelo RUP poderiam atender para criar a solução, pois não trazem a maior agilidade e flexibilidade, mas conseguem entregar um produto sólido, confiável e seguro para o cliente. Já na construção de uma rede social, ou app para o dia a dia de pessoas, ou soluções que não sejam extremamente críticas, são melhores metodologias como a incremental e outras ágeis, que atendem perfeitamente, pois entregam funcionalidades no tempo que é a realidade dos usuários nos dias atuais, que gostam de velocidade, de forma ágil e flexível, que em caso de problemas críticos ou partes do sistema com mau funcionamento, não irá causar grandes danos e pode ser reparado rapidamente graças a metodologia utilizada.

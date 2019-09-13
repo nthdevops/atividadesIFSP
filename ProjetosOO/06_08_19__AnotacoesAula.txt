@@ -1,0 +1,24 @@
+Herança
+_____________|>
+
+
+Dependencia
+
+-------------->
+
+
+Inclusão
+
+- É tipo de dependência
+
+- Costuma ser utilizada quando existe um cenário, situação ou rotina comum a mais de um caso de uso.
+	* Os relacionamentos de inclusão indicam uma obrigatoriedade, ou seja, a execução do primeiro obriga também a execução do segundo.
+	* Pode ser comparado à chamada de uma sub-rotina ou função.
+
+Extensão
+
+- Também é um tipo de dependência
+
+- São utilizadas para descrever cenários opcionais de um caso de uso.
+	* Casos de uso estendidos descrevem cenários que apenas ocorrerão em uma situação específica se determinada condição for satisfeita.
+	* Relacionamentos de extensão representam eventos que não ocorrem sempre.

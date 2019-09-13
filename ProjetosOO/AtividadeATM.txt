@@ -1,0 +1,25 @@
+Descrição dos casos de uso:
+
+Ação - Caso de uso genérico para todas as ações tomadas no ATM, que através da herança evita redundâncias.
+
+Verificação de Autênticação - Verifica se o usuário está autenticado no ATM.
+
+Verificação de saldo suficiente - Verifica se há saldo suficiente para tomar a ação desejada.
+
+Autenticação - O usuário insere o cartão do banco ou digita seus dados manualmente para efetuar a autenticação no terminal. É a primeira tela e não há como realizar outras ações sem este passo.
+
+Consultar saldo - Consulta o saldo disponível na conta do cliente e retorna o valor na tela para o usuário.
+
+Emitir extrato - Emite o extrato baseado no período selecionado pelo usuário na interface e o imprime todos os lançamentos da conta.
+
+Bloqueio/Desbloqueio de cartão - Permite o usuário bloquear ou desbloquear cartões associados a sua conta.
+
+Realizar depósito - Guia o usuário para pegar um envelope, inserir o valor e após selar o envelope avançar para a parte de depósito, então o ATM captura o envelope e o associa a conta do usuário e a operação.
+
+Realizar transferência - Da a opção ao usuário de transferir o valor que desejar a contatos já salvos ou adicionar uma conta para realizar a transferência.
+
+Realizar saque - Da a opção ao usuário a sacar o valor que desejar.
+
+Pagar conta - Permite o usuário digitar o código de um boleto ou escanear o código de barras.
+
+Ativar token - Permite o usuário ativar o token para um novo aparelho de celular.
