@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script defer async src="menu.js"></script>
+        <script defer async src="carrossel.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a>
+                <a href="./signup.html">Sign-Up</a>
+                <a href="./media.html">Media</a>
+        </div>
+        <br>
+        </div>
+        <span id="Menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img_nature_wide.jpg" style="width:100%">
+            <div class="text">Nature</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img_snow_wide.jpg" style="width:100%">
+            <div class="text">Snow</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img_mountains_wide.jpg" style="width:100%">
+            <div class="text">Mountains</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </body>
+</html>

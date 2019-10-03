@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script defer async src="menu.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="./index.html">Home</a>
+                    <a href="./signup.html">Sign-Up</a>
+                    <a href="./media.html">Media</a>
+                </div>
+            </div>
+            <span id="Menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+        </header>
+
+        <br>
+        <div id="medias">
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/lM02vNMRRB0" frameborder="0" allow="accelerometer; autoplay; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <br>
+            <img id="rbm" src="rambo.jpg" width="560" height="315" alt="Rambo">
+            <br>
+            <audio controls>
+                <source src="Rambo.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+    </body>
+</html>

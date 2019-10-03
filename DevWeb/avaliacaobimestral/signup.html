@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script defer async src="menu.js"></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a>
+                <a href="./signup.html">Sign-Up</a>
+                <a href="./media.html">Media</a>
+            </div>
+        <br>
+        </div>
+        <span id="Menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+
+        <div id="formao">
+            <form class="signup-form" action="index.html">
+                <div>
+                    <input type="email" placeholder="email@example.com"/>
+                </div>
+                <div>
+                    <input type="text" placeholder="Username"/>
+                </div>
+                <div>
+                    <input type="password" placeholder="Password"/>
+                </div>
+                <div>
+                    <input type="date" placeholder="dd/mm/aaaa">
+                </div>
+                <div id="radiostp">
+                    <input type="radio" name="gender" value="male" checked>Masculino<br>
+                    <input type="radio" name="gender" value="female">Feminino<br>
+                </div>
+                <div>
+                    <input id="submitao" type="submit" value="SignUp" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
