@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="content-nav">
+            <a href="index.html">Home</a>
+            <a href="ingressos.html">Ingressos</a>
+        </nav>
+    </header>
+    <div class="form">
+        <form method="POST">
+            <select name="Selecione" id="">
+                <option value="EF">Educação Financeira</option>
+                <option value="MD">O Mundo dos Dados</option>
+                <option value="EGG">Entendendo Git e GitHub</option>
+            </select>
+    
+            <label id="mark-text">Informações de Acesso</label>
+            <label>Usuário <input type="text" id="user"> </label>
+            <label for="">Senha <input type="password" name="Password" id="password"> </label>
+            <label for="">Confirmar senha <input type="password" name="Confirm Password" id="confirmPassword"> </label>
+            <label id="mark-text">Informações Pessoais</label>
+            <input type="text" id="name" placeholder="Nome">
+            <input type="email" name="Email" id="email" placeholder="Email">
+            <input type="number" placeholder="(99) 99999-9999" id="tel">
+    
+            <label id="mark-text">Sexo</label>
+            <label>Masculino <input type="radio" id="optionMale"> </label>
+            <label>Feminino <input type="radio" id="optionFemale"> </label>
+    
+            <label>Data de Nascimento <input type="date" name="Date" id="date"> </label>
+            <label>Perfil no GitHub</label>
+            <input type="text" id="profileGithub">
+            <div class="align-buttons">
+                <button type="submit" id="button-submit">Inscrever-se</button>
+                <button type="reset" id="button-reset">Limpar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="content-footer">
+            <p>Sobre</p>
+            <a href="sobre.html">Conheça o projeto</a>
+        </div>
+        <div class="content-footer">
+            <p>Ingressos</p>
+            <a href="ingressos.html">Compre com a gente!</a>
+        </div>
+    </footer>
+</body>
+</html>

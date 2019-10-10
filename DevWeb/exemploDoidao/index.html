@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <title>UpSkills</title>
+    <script> 
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</head>
+<body class="background">
+    <header>
+        <nav class="content-nav">
+            <a href="index.html">Home</a>
+            <a href="ingressos.html">Ingressos</a>
+            <div id="mySidenav" class="sidenav" style="width: 0px;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="sobre.html">Sobre</a> 
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+        </nav>
+    </header>
+    <section>
+        <div class="home">
+            <h1 id="font-one">o melhor evento para desenvolver as suas skills:</h1>
+            <h1 id="font-two">Up<span>Skills</span></h1>
+        </div>
+    </section>
+    <footer>
+        <div class="content-footer">
+            <p>Sobre</p>
+            <a href="sobre.html">Conheça o projeto</a>
+        </div>
+        <div class="content-footer">
+            <p>Ingressos</p>
+            <a href="ingressos.html">Compre com a gente!</a>
+        </div>
+    </footer>
+</body>
+</html>
