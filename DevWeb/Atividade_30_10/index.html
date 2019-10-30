@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<body>
+  <div id="root"></div>
+	
+<script type="text/babel">
+    class MyForm extends React.Component {
+        constructor(props) {
+        super(props);
+        this.state = { username: '', profissao: '', idade: ''};
+        }
+        myChangeHandler = (event) => {
+            let nam = event.target.name;
+            let val = event.target.value;
+            this.setState({[nam]: val});
+        }
+        render() {
+        return (
+            <form>
+            <h1>O profissional {this.state.username}, que tem como profissão {this.state.profissao}, tem {this.state.idade}</h1>
+            <p>Nome:</p>
+            <input
+            type='text' name='username'
+            onChange={this.myChangeHandler}
+            />
+            <p>Profissão:</p>
+            <input
+            type='text' name='profissao'
+            onChange={this.myChangeHandler}
+            />
+            <p>Idade:</p>
+            <input
+            type='text' name='idade'
+            onChange={this.myChangeHandler}
+            />
+            </form>
+        );
+        }
+    }
+    
+    ReactDOM.render(<MyForm />, document.getElementById('root'));
+</script>
+
+</body>
+</html>
