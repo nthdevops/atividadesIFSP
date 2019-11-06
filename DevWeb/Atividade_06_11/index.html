@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="" class="ng-scope"><head>
+    <title>Lista de alunos com AngularJS</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="lista-alunos.css">
+    <script src="https://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
+    <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+</head>
+<body>
+    <div class="container ng-scope" ng-controller="ListaAlunosController">
+      <div class="row">
+          <div class="page-header">
+              <h1>Lista de alunos</h1>
+          </div>
+      </div>
+      <div class="row">
+        <table id="lista-alunos" class="table table-striped">
+          <thead>
+            <tr>
+              <th>Aluno</th>
+              <th>Nota</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- ngRepeat: item in itens -->
+            <tr ng-repeat="item in itens" class="ng-scope">
+              <td><strong class="ng-binding">{{ item.aluno }}</strong></td>
+              <td class="ng-binding">{{ item.nota }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <form class="form-inline ng-pristine ng-valid" name="formItem">
+          <input type="text" required="true" ng-model="item.aluno" placeholder="Aluno" class="ng-pristine ng-valid">
+          <input type="number" min="1" max="10" required="true" ng-model="item.nota" placeholder="Nota" class="input-small ng-pristine ng-valid ng-valid-number">
+          <button class="btn btn-primary" ng-click="adicionaItem()">Adicionar Aluno</button>
+        </form>
+      </div>
+    </div>
+  <script>
+  function ListaAlunosController($scope) {
+    $scope.itens = [
+        {aluno: 'Natã', nota: 10, comprado: false},
+        {aluno: 'José', nota: 06, comprado: false}
+    ];
+    $scope.adicionaItem = function () {
+        if($scope.item.aluno != null && $scope.item.nota != null){
+            $scope.itens.push({aluno: $scope.item.aluno,
+                nota: $scope.item.nota,
+                comprado: false});
+        }
+        $scope.item.aluno = $scope.item.nota = '';
+    };
+  }
+  </script>
+</body>
+</html>
