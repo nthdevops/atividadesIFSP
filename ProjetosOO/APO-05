@@ -1,0 +1,5 @@
+1) Dentro do contexto de Diagramas de Classes, explique os conceitos, forneça a simbologia e dê exemplos:
+classe abstrata - É uma classe modelo, a qual não pode ser instanciada, em caso de métodos abstratos, suas classes filhas devem sobrescrever os métodos especificando a ação a ser tomada.
+método abstrato - É um método que passa a responsabilidade de implementação para as classes que heram a classe que tem o método abstrato, obrigando como um modelo todas as classes da herança implementar o método.
+atributo estático (ou de classe) - Atributos estáticos são atributos que não alteram o seu valor nunca, todos os objetos da classe irão alterar e acessar o mesmo atributo independente da instância, também não sendo necessário instânciar uma classe para seu acesso, sendo possível acessar diretamente da classe.
+método estático (ou de classe) - Igualmente aos atributos estáticos podem ser invocados diretamente da classe, sem a necessidade de uma instância de classe e não podem acessar atributos dinâmicos (de instância).
