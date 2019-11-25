@@ -1,0 +1,9 @@
+Ação - Caso de uso genérico para todas as ações tomadas, que através da herança evita redundâncias.
+
+Verificação de Autênticação - Verifica se o usuário está autenticado.
+
+Autenticação - O usuário insere o seu CPF e senha do site do cidadão para efetuar a autenticação no totem. É a primeira tela e não há como realizar outras ações sem este passo.
+
+Consultar Informações CPF - Trás todas as informações dos sistemas do governo relacionadas ao CPF.
+
+(Descrição genérica) Impressão "documento" - Permite o usuário com poucos cliques, realizar impressão de documentos necessários, através de integrações com sistemas do governo.
