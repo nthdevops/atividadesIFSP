@@ -1,0 +1,13 @@
+1) Dentro do contexto de Diagramas de Classes, explique os conceitos, forneça a simbologia e dê exemplos de:
+visibilidade pública - Todas as classes tem acesso (+).
+visibilidade protegida - Apenas Subclasses tem acesso (#).
+visibilidade privada - Apenas a Classe tem acesso (-).
+associação unária - Quando um objeto se relaciona com outro objeto da mesma classe.
+associação binária - Quando objetos de classes distintas se relacionam.
+classe associativa - Uma classe que é instânciado em uma associação de classes.
+
+2) Dentro do contexto de Diagramas de Classes, explique os conceitos, forneça a simbologia e dê exemplos de:
+agregação - Define uma classe a partir seus próprios atributos e uma ou mais classes, as quais podem existir sem o objeto de agregação.
+composição - Igual a classe de agregação, mas as classes que a compõem não podem existir sem o objeto de composição.
+generalização (na herança) - São classes "mãe", que contém atributos e ações genéricos para grupos de classes.
+especialização (na herança) - São classes filhas de classes de generalização, tendo elememtos próprios do objeto, que não se repetem para as classes "irmãs".

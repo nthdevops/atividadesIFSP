@@ -1,7 +1,0 @@
-1) Dentro do contexto de Diagramas de Classes, explique os conceitos, forneça a simbologia e dê exemplos de:
-visibilidade pública - Todas as classes tem acesso.
-visibilidade protegida - Apenas Subclasses tem acesso.
-visibilidade privada - Apenas a Classe tem acesso.
-associação unária - Quando um objeto se relaciona com outro objeto da mesma classe.
-associação binária - Quando objetos de classes distintas se relacionam.
-classe associativa - Uma classe que é instânciado em uma associação de classes.
