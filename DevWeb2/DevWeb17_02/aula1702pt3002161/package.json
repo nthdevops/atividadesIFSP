@@ -1,0 +1,15 @@
+{
+  "name": "devweb17_02",
+  "version": "1.0.0",
+  "description": "Aula inicial de DevWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^0.8.8",
+    "express": "^4.8.8"
+  }
+}
